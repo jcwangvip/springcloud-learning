@@ -1,0 +1,16 @@
+server:
+  port: 18110
+  servlet:
+    application-display-name: eureka-client-service-name
+spring:
+  application:
+    #这个名字是在注册中心显示的名字
+    name: eureka-client-application-name
+
+
+eureka:
+  client:
+    service-url:
+      #注册中心地址
+      defaultZone: http://localhost:18100/eureka/
+

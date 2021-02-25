@@ -1,0 +1,16 @@
+server:
+  port: 18100
+  servlet:
+    application-display-name: eureka-service-service-name
+spring:
+  application:
+    name: eureka-service-applition-name
+
+
+#不加以下这两句配置,就会报这个错com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+eureka:
+  client:
+    #禁止自己当做服务注册,不向自己注册自己
+    register-with-eureka: false
+    #屏蔽注册信息,检索服务
+    fetch-registry: false
