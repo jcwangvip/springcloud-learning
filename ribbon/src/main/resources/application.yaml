@@ -1,11 +1,15 @@
 server:
-  port: 18110
+  port: 18112
   servlet:
-    application-display-name: eureka-client-service-name
+    application-display-name: ribion-learn-name
 spring:
   application:
     #这个名字是在注册中心显示的名字
-    name: eureka-client-application-name
+    name: ribbon-learn-name
+#  cloud:
+#    loadbalancer:
+#      ribbon:
+#        enabled: true
 
 eureka:
   client:
