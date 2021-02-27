@@ -1,15 +1,11 @@
 server:
-  port: 18112
+  port: 18113
   servlet:
-    application-display-name: ribion-learn-name
+    application-display-name: ribion-demo-learn-name
 spring:
   application:
     #这个名字是在注册中心显示的名字
-    name: ribbon-learn-name
-#  cloud:
-#    loadbalancer:
-#      ribbon:
-#        enabled: true
+    name: ribbon-demo-learn-name
 
 eureka:
   client:
