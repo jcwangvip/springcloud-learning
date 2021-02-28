@@ -10,14 +10,12 @@
     </parent>
 
     <groupId>com.springcloud.learn</groupId>
-    <artifactId>ribbon-demo</artifactId>
+    <artifactId>fegin-learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ribbon-demo</name>
-    <description>ribbon-demo</description>
+    <name>feign-learn</name>
+    <description>feign-learn</description>
 
     <dependencies>
-
     </dependencies>
-
 
 </project>

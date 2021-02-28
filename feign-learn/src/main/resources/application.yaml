@@ -1,0 +1,17 @@
+server:
+  port: 18114
+  servlet:
+    application-display-name: feign-learn-name
+spring:
+  application:
+    #这个名字是在注册中心显示的名字
+    name: feign-learn-name
+
+eureka:
+  client:
+    service-url:
+      #注册中心地址
+      defaultZone: http://localhost:18100/eureka/
+
+eurekaClient:
+  name: eureka-client-application-name
